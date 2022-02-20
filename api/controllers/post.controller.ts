@@ -1,7 +1,7 @@
 const post = require('../models/post.model')
 const user = require('../models/user.model');
 import { Request, Response } from 'express';
-import { initialValue, PostType } from "../../Social_media_backend/type/postType"
+import { initialValue, PostType } from "../../type/postType"
 var cloudinary = require('cloudinary').v2;
 var uploads = {};
 cloudinary.config({

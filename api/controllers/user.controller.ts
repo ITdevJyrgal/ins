@@ -16,7 +16,7 @@ cloudinary.config({
     api_secret: 'zvdEWEfrF38a2dLOtVp-3BulMno'
 });
 
-import {FriendType, initUser,UserType} from '../../Social_media_backend/type/userType'
+import {FriendType, initUser,UserType} from '../../type/userType'
 
 exports.register = async (req:Request, res:Response) => {
     if ((typeof req.body.email === 'undefined')
